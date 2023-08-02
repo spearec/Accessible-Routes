@@ -1,3 +1,6 @@
+import { UpdateSelectedStartAction } from "./options";
+
+export type BuildingsAction = UpdateSelectedStartAction;
 
 export interface BuildingData {
     id: number,

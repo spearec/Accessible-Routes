@@ -1,16 +1,16 @@
-import React from 'react';
+import * as React from 'react';
 import { render } from 'react-dom';
 import './index.css';
-import App from './App';
+import reducers from './reducers'
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
-import reducers from './reducers';
+import MapComponent from './components/MapComponent';
 
 const store = createStore(reducers);
 
 render(
 	<Provider store={store}>
-		<App />
+		<MapComponent />
 	</Provider>,
 	document.getElementById('root')
 );

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src/client/app/",
+    "outDir": "./src/client/public/app/",
+    "sourceMap": true,
+    "jsx": "react",
+    "allowJs": true,
+    "rootDir": "src",
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "./src/client/app/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

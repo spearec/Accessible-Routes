@@ -1,6 +1,6 @@
-import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import * as React from 'react';
 import Select from 'react-select';
+import { useDispatch, useSelector } from 'react-redux';
 import { State } from '../types/redux/state';
 import { updateSelectedStart } from '../actions/options';
 

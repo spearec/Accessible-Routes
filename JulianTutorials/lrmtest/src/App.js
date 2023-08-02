@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import Map2 from './Map';
 
 export default function App() {

@@ -3,3 +3,6 @@
 # dependencies
 node_modules
 postgres-data
+
+# Build files
+/dist
