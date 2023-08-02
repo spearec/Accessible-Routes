@@ -5,4 +5,4 @@ node_modules
 postgres-data
 
 # Build files
-/dist
+/src/client/public/app/*

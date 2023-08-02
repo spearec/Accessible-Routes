@@ -5,12 +5,16 @@ import reducers from './reducers'
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import MapComponent from './components/MapComponent';
+import PathSelectComponent from './components/PathSelectComponent';
 
 const store = createStore(reducers);
 
 render(
 	<Provider store={store}>
-		<MapComponent />
+		<div className="row">
+		<div className="column"><MapComponent /></div>
+		<div className="columnRight"><PathSelectComponent /></div>
+		</div>
 	</Provider>,
 	document.getElementById('root')
 );
