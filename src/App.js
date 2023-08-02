@@ -1,13 +1,13 @@
 import './App.css';
-import MyMap from './common/components/mapSample.component';
 //import searchBar from './common/components/searchBar';
 import {React, useState } from 'react';
+import MapComponent from './components/MapComponent';
 
 
 function App() {
   return (
     <div className="Page">
-        <MyMap/>
+        <MapComponent/>
         <div className="Search">
             <Search/>
             <SearchDest/>
