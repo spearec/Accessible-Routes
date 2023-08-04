@@ -12,6 +12,9 @@ import { updateSelectedStart } from '../actions/options';
 export default function MapComponent() {
     const dispatch = useDispatch();
 
+    // TODO: initialize this into state, from JSON returned by API
+    // const buildingsState = useSelector((state: State) => state.buildings);
+
     const markers = [
         { loc: { lat: 42.73101, lng: -73.68051 }, name: 'Troy Building', id: 1},
         { loc: { lat: 42.73089, lng: -73.6797 }, name: 'Ricketts Building', id: 2},

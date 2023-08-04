@@ -4,17 +4,26 @@ import './index.css';
 import reducers from './reducers'
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
-import MapComponent from './components/MapComponent';
-import PathSelectComponent from './components/PathSelectComponent';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import MapPage from './components/MapPage';
+import BuildingMapComponent from './components/BuildingMapComponent';
 
 const store = createStore(reducers);
 
+const router = createBrowserRouter([
+	{
+		path: '/',
+		element: <MapPage />
+	},
+	{
+		path: '/building',
+		element: <BuildingMapComponent />
+	}
+])
+
 render(
 	<Provider store={store}>
-		<div className="row">
-		<div className="column"><MapComponent /></div>
-		<div className="columnRight"><PathSelectComponent /></div>
-		</div>
+		<RouterProvider router={router} />
 	</Provider>,
 	document.getElementById('root')
 );

@@ -8,7 +8,7 @@ import { Label } from 'reactstrap';
 export default function PathSelectComponent() {
     const dispatch = useDispatch();
     
-    // TODO: initialize this into state
+    // TODO: initialize this into state, from JSON returned by API
     // const buildingsState = useSelector((state: State) => state.buildings);
     const state = useSelector((state: State) => state)
 
