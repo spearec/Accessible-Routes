@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "node src/server/server.js",
+    "start": "nodemon src/server/server.js",
     "dev": "webpack watch --mode development",
     "build": "webpack"
   },
   "dependencies": {
     "express": "^4.18.2",
     "leaflet": "^1.9.4",
+    "pg": "^8.11.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-leaflet": "^4.2.1",

@@ -32,3 +32,576 @@ modules by path ./src/client/app/ 10.9 KiB
   modules by path ./src/client/app/*.css 2.13 KiB 2 modules
   + 3 modules
 webpack 5.88.2 compiled successfully in 3984 ms
+
+
+***** Starting install of Accessible Routes at Wed Aug  9 17:38:25 UTC 2023 *****
+
+
+Skipping npm install as node_modules is up to date
+
+Accessible Routes install finished
+
+> accessible-routes@0.1.0 dev
+> webpack watch --mode development
+
+
+> accessible-routes@0.1.0 start
+> node src/server/server.js
+
+Application running on port: 3000
+assets by status 6.35 KiB [cached] 5 assets
+asset bundle.js 3.63 MiB [compared for emit] (name: main)
+orphan modules 38.2 KiB [orphan] 12 modules
+runtime modules 2.6 KiB 9 modules
+modules by path ./node_modules/ 2.89 MiB (javascript) 7.78 KiB (asset)
+  javascript modules 2.89 MiB 346 modules
+  asset modules 252 bytes (javascript) 7.78 KiB (asset)
+    modules by path ./node_modules/leaflet/dist/ 126 bytes (javascript) 3.34 KiB (asset) 3 modules
+    modules by path ./node_modules/react-leaflet-cluster/lib/ 126 bytes (javascript) 4.44 KiB (asset)
+      ./node_modules/react-leaflet-cluster/lib/assets/marker-icon-2x.png 42 bytes (javascript) 2.41 KiB (asset) [built] [code generated]
+      + 2 modules
+modules by path ./src/client/app/ 10.9 KiB
+  modules by path ./src/client/app/components/*.tsx 5.32 KiB 4 modules
+  modules by path ./src/client/app/reducers/*.ts 1.58 KiB 3 modules
+  modules by path ./src/client/app/*.css 2.13 KiB 2 modules
+  + 3 modules
+webpack 5.88.2 compiled successfully in 3398 ms
+
+
+***** Starting install of Accessible Routes at Wed Aug  9 17:47:51 UTC 2023 *****
+
+
+Skipping npm install as node_modules is up to date
+
+Accessible Routes install finished
+
+> accessible-routes@0.1.0 dev
+> webpack watch --mode development
+
+
+> accessible-routes@0.1.0 start
+> node src/server/server.js
+
+(node:335) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+(Use `node --trace-warnings ...` to show where the warning was created)
+/workspaces/Accessible-Routes/src/server/server.js:4
+import { restart } from 'nodemon';
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.0
+assets by status 6.35 KiB [cached] 5 assets
+asset bundle.js 3.63 MiB [compared for emit] (name: main)
+orphan modules 38.2 KiB [orphan] 12 modules
+runtime modules 2.6 KiB 9 modules
+modules by path ./node_modules/ 2.89 MiB (javascript) 7.78 KiB (asset)
+  javascript modules 2.89 MiB 346 modules
+  asset modules 252 bytes (javascript) 7.78 KiB (asset)
+    modules by path ./node_modules/leaflet/dist/ 126 bytes (javascript) 3.34 KiB (asset) 3 modules
+    modules by path ./node_modules/react-leaflet-cluster/lib/ 126 bytes (javascript) 4.44 KiB (asset)
+      ./node_modules/react-leaflet-cluster/lib/assets/marker-icon-2x.png 42 bytes (javascript) 2.41 KiB (asset) [built] [code generated]
+      + 2 modules
+modules by path ./src/client/app/ 10.9 KiB
+  modules by path ./src/client/app/components/*.tsx 5.32 KiB 4 modules
+  modules by path ./src/client/app/reducers/*.ts 1.58 KiB 3 modules
+  modules by path ./src/client/app/*.css 2.13 KiB 2 modules
+  + 3 modules
+webpack 5.88.2 compiled successfully in 3486 ms
+assets by status 3.63 MiB [cached] 6 assets
+cached modules 2.94 MiB (javascript) 7.78 KiB (asset) 2.6 KiB (runtime) [cached] 385 modules
+webpack 5.88.2 compiled successfully in 117 ms
+assets by status 3.63 MiB [cached] 6 assets
+cached modules 2.94 MiB (javascript) 7.78 KiB (asset) 2.6 KiB (runtime) [cached] 385 modules
+webpack 5.88.2 compiled successfully in 48 ms
+
+
+***** Starting install of Accessible Routes at Wed Aug  9 17:49:03 UTC 2023 *****
+
+
+Skipping npm install as node_modules is up to date
+
+Accessible Routes install finished
+
+> accessible-routes@0.1.0 dev
+> webpack watch --mode development
+
+
+> accessible-routes@0.1.0 start
+> nodemon src/server/server.js
+
+[33m[nodemon] 3.0.1[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+node:internal/modules/cjs/loader:1080
+  throw err;
+  ^
+
+Error: Cannot find module 'pg'
+Require stack:
+- /workspaces/Accessible-Routes/src/server/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (/workspaces/Accessible-Routes/src/server/server.js:4:14)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/workspaces/Accessible-Routes/src/server/server.js' ]
+}
+
+Node.js v18.17.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+assets by status 6.35 KiB [cached] 5 assets
+asset bundle.js 3.63 MiB [compared for emit] (name: main)
+orphan modules 38.2 KiB [orphan] 12 modules
+runtime modules 2.6 KiB 9 modules
+modules by path ./node_modules/ 2.89 MiB (javascript) 7.78 KiB (asset)
+  javascript modules 2.89 MiB 346 modules
+  asset modules 252 bytes (javascript) 7.78 KiB (asset)
+    modules by path ./node_modules/leaflet/dist/ 126 bytes (javascript) 3.34 KiB (asset) 3 modules
+    modules by path ./node_modules/react-leaflet-cluster/lib/ 126 bytes (javascript) 4.44 KiB (asset)
+      ./node_modules/react-leaflet-cluster/lib/assets/marker-icon-2x.png 42 bytes (javascript) 2.41 KiB (asset) [built] [code generated]
+      + 2 modules
+modules by path ./src/client/app/ 10.9 KiB
+  modules by path ./src/client/app/components/*.tsx 5.32 KiB 4 modules
+  modules by path ./src/client/app/reducers/*.ts 1.58 KiB 3 modules
+  modules by path ./src/client/app/*.css 2.13 KiB 2 modules
+  + 3 modules
+webpack 5.88.2 compiled successfully in 3123 ms
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+assets by status 3.63 MiB [cached] 6 assets
+cached modules 2.94 MiB (javascript) 7.78 KiB (asset) 2.6 KiB (runtime) [cached] 385 modules
+webpack 5.88.2 compiled successfully in 123 ms
+/workspaces/Accessible-Routes/src/server/server.js:14
+const pool = new Pool({
+             ^
+
+TypeError: Pool is not a constructor
+    at Object.<anonymous> (/workspaces/Accessible-Routes/src/server/server.js:14:14)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+
+
+***** Starting install of Accessible Routes at Wed Aug  9 17:49:27 UTC 2023 *****
+
+
+Skipping npm install as node_modules is up to date
+
+Accessible Routes install finished
+
+> accessible-routes@0.1.0 start
+> nodemon src/server/server.js
+
+
+> accessible-routes@0.1.0 dev
+> webpack watch --mode development
+
+[33m[nodemon] 3.0.1[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+/workspaces/Accessible-Routes/src/server/server.js:14
+const pool = new Pool({
+             ^
+
+TypeError: Pool is not a constructor
+    at Object.<anonymous> (/workspaces/Accessible-Routes/src/server/server.js:14:14)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+assets by status 6.35 KiB [cached] 5 assets
+asset bundle.js 3.63 MiB [compared for emit] (name: main)
+orphan modules 38.2 KiB [orphan] 12 modules
+runtime modules 2.6 KiB 9 modules
+modules by path ./node_modules/ 2.89 MiB (javascript) 7.78 KiB (asset)
+  javascript modules 2.89 MiB 346 modules
+  asset modules 252 bytes (javascript) 7.78 KiB (asset)
+    modules by path ./node_modules/leaflet/dist/ 126 bytes (javascript) 3.34 KiB (asset) 3 modules
+    modules by path ./node_modules/react-leaflet-cluster/lib/ 126 bytes (javascript) 4.44 KiB (asset)
+      ./node_modules/react-leaflet-cluster/lib/assets/marker-icon-2x.png 42 bytes (javascript) 2.41 KiB (asset) [built] [code generated]
+      + 2 modules
+modules by path ./src/client/app/ 10.9 KiB
+  modules by path ./src/client/app/components/*.tsx 5.32 KiB 4 modules
+  modules by path ./src/client/app/reducers/*.ts 1.58 KiB 3 modules
+  modules by path ./src/client/app/*.css 2.13 KiB 2 modules
+  + 3 modules
+webpack 5.88.2 compiled successfully in 3070 ms
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+/workspaces/Accessible-Routes/node_modules/pg-pool/index.js:45
+    Error.captureStackTrace(err);
+          ^
+
+error: role "routes" does not exist
+    at /workspaces/Accessible-Routes/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /workspaces/Accessible-Routes/src/server/server.js:27:20 {
+  length: 98,
+  severity: 'FATAL',
+  code: '28000',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'miscinit.c',
+  line: '723',
+  routine: 'InitializeSessionUserId'
+}
+
+Node.js v18.17.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+/workspaces/Accessible-Routes/node_modules/pg-pool/index.js:45
+    Error.captureStackTrace(err);
+          ^
+
+error: relation "building" does not exist
+    at /workspaces/Accessible-Routes/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /workspaces/Accessible-Routes/src/server/server.js:27:20 {
+  length: 107,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1392',
+  routine: 'parserOpenTable'
+}
+
+Node.js v18.17.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+/workspaces/Accessible-Routes/src/server/server.js:32
+    res.send(building_id);
+             ^
+
+ReferenceError: building_id is not defined
+    at /workspaces/Accessible-Routes/src/server/server.js:32:14
+    at Layer.handle [as handle_request] (/workspaces/Accessible-Routes/node_modules/express/lib/router/layer.js:95:5)
+    at next (/workspaces/Accessible-Routes/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/workspaces/Accessible-Routes/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/workspaces/Accessible-Routes/node_modules/express/lib/router/layer.js:95:5)
+    at /workspaces/Accessible-Routes/node_modules/express/lib/router/index.js:284:15
+    at param (/workspaces/Accessible-Routes/node_modules/express/lib/router/index.js:365:14)
+    at param (/workspaces/Accessible-Routes/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/workspaces/Accessible-Routes/node_modules/express/lib/router/index.js:421:3)
+    at next (/workspaces/Accessible-Routes/node_modules/express/lib/router/index.js:280:10)
+
+Node.js v18.17.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+/workspaces/Accessible-Routes/src/server/server.js:32
+    res.send(building_id);
+             ^
+
+ReferenceError: building_id is not defined
+    at /workspaces/Accessible-Routes/src/server/server.js:32:14
+    at Layer.handle [as handle_request] (/workspaces/Accessible-Routes/node_modules/express/lib/router/layer.js:95:5)
+    at next (/workspaces/Accessible-Routes/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/workspaces/Accessible-Routes/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/workspaces/Accessible-Routes/node_modules/express/lib/router/layer.js:95:5)
+    at /workspaces/Accessible-Routes/node_modules/express/lib/router/index.js:284:15
+    at param (/workspaces/Accessible-Routes/node_modules/express/lib/router/index.js:365:14)
+    at param (/workspaces/Accessible-Routes/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/workspaces/Accessible-Routes/node_modules/express/lib/router/index.js:421:3)
+    at next (/workspaces/Accessible-Routes/node_modules/express/lib/router/index.js:280:10)
+
+Node.js v18.17.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+/workspaces/Accessible-Routes/src/server/server.js:32
+    res.send(building_id);
+             ^
+
+ReferenceError: building_id is not defined
+    at /workspaces/Accessible-Routes/src/server/server.js:32:14
+    at Layer.handle [as handle_request] (/workspaces/Accessible-Routes/node_modules/express/lib/router/layer.js:95:5)
+    at next (/workspaces/Accessible-Routes/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/workspaces/Accessible-Routes/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/workspaces/Accessible-Routes/node_modules/express/lib/router/layer.js:95:5)
+    at /workspaces/Accessible-Routes/node_modules/express/lib/router/index.js:284:15
+    at param (/workspaces/Accessible-Routes/node_modules/express/lib/router/index.js:365:14)
+    at param (/workspaces/Accessible-Routes/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/workspaces/Accessible-Routes/node_modules/express/lib/router/index.js:421:3)
+    at next (/workspaces/Accessible-Routes/node_modules/express/lib/router/index.js:280:10)
+
+Node.js v18.17.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+/workspaces/Accessible-Routes/src/server/server.js:32
+    res.send(building_id);
+             ^
+
+ReferenceError: building_id is not defined
+    at /workspaces/Accessible-Routes/src/server/server.js:32:14
+    at Layer.handle [as handle_request] (/workspaces/Accessible-Routes/node_modules/express/lib/router/layer.js:95:5)
+    at next (/workspaces/Accessible-Routes/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/workspaces/Accessible-Routes/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/workspaces/Accessible-Routes/node_modules/express/lib/router/layer.js:95:5)
+    at /workspaces/Accessible-Routes/node_modules/express/lib/router/index.js:284:15
+    at param (/workspaces/Accessible-Routes/node_modules/express/lib/router/index.js:365:14)
+    at param (/workspaces/Accessible-Routes/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/workspaces/Accessible-Routes/node_modules/express/lib/router/index.js:421:3)
+    at next (/workspaces/Accessible-Routes/node_modules/express/lib/router/index.js:280:10)
+
+Node.js v18.17.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+/workspaces/Accessible-Routes/node_modules/pg-pool/index.js:45
+    Error.captureStackTrace(err);
+          ^
+
+error: column "t" does not exist
+    at /workspaces/Accessible-Routes/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /workspaces/Accessible-Routes/src/server/server.js:32:20 {
+  length: 101,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '38',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3656',
+  routine: 'errorMissingColumn'
+}
+
+Node.js v18.17.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+/workspaces/Accessible-Routes/node_modules/pg-pool/index.js:45
+    Error.captureStackTrace(err);
+          ^
+
+error: column "troy" does not exist
+    at /workspaces/Accessible-Routes/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /workspaces/Accessible-Routes/src/server/server.js:32:20 {
+  length: 104,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '38',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3656',
+  routine: 'errorMissingColumn'
+}
+
+Node.js v18.17.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+/workspaces/Accessible-Routes/src/server/server.js:32
+    const result = await pool.query('SELECT * from buildings where name = \'' + req.params.building_id + \');
+                                                                                                         ^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server/server.js`[39m
+Application running on port: 3000
